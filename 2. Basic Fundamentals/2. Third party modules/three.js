@@ -3,6 +3,7 @@
 
 const yargs = require(yargs);
 const four = require('./four');
+
 const argv = process.argv;
 if(command==="Add"){
     four.Add(argv.title, argv.body);
