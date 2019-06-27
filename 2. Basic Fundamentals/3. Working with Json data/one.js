@@ -9,7 +9,7 @@ const res = JSON.stringify(obj);
 console.log(typeof obj);
 console.log(obj);
 
-// writing the json data to the file 
+// Writing the json data to the file 
 const person = () =>{
     name : Max , 
     age : 29 
