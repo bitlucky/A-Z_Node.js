@@ -15,10 +15,11 @@ const person = () =>{
     age : 29 
 }
 
-// reading from the saved person.txt file 
+// writing to the person.txt file 
 const writingPerson = JSON.stringify(person);
 fs.writeFileSync('person.txt' , writingPerson);
 
+// Reading from the saved person.txt file
 const ReadPerson = fs.readFileSync('./person.txt');
 const ReadingPerson = JSON.parse(ReadPerson);
 console.log(typeof ReadingPerson);
