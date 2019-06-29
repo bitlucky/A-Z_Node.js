@@ -10,8 +10,8 @@ console.log(typeof obj);
 console.log(obj);
 
 // Writing the json data to the file 
-const person = () =>{
-    name : Max , 
+const person = {
+    name : Max, 
     age : 29 
 }
 
