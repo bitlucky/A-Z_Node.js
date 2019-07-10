@@ -1,17 +1,16 @@
 const utils = require('./utils');
+it('should add two numbers ', ()=>{
+    var result = utils.add(23,31);
 
-it('should add two numbers', () => {
-  var res = utils.add(33, 11);
-
-  if (res !== 44) {
-    throw new Error(`Expected 44, but got ${res}.`)
-  }
+    if(result!==54){
+        throw new Error(`Expected 44 but got ${result}`);
+    }
 });
 
-it('should square a number', () => {
-  var res = utils.square(3);
+it('should return square of a numbers', ()=>{
+    var sq = utils.square(5);
 
-  if (res !== 9) {
-    throw new Error(`Expected 9, but got ${res}.`);
-  }
-});
+    if(sq!==25){
+        throw new Error(`Expected 25 but got ${sq}`);
+    }
+})
