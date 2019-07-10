@@ -1,0 +1,27 @@
+{
+  "name": "a-z_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitlucky/A-Z_Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitlucky/A-Z_Node.js/issues"
+  },
+  "homepage": "https://github.com/bitlucky/A-Z_Node.js#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^6.1.4"
+  }
+}
