@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/bitlucky/A-Z_Node.js#readme",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.18.2",
     "hbs": "^4.0.0",
     "nodemon": "^1.19.1"
   },
